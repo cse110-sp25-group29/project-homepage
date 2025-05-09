@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Card Maker App</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        padding: 20px;
+    }
+
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        padding: 20px;
+        background-color: #f0f0f0;
+    }
+
+    .menu-button {
+        position: absolute;
+        right: 20px;
+        background: none;
+        border: none;
+        font-size: 24px;
+        cursor: pointer;
+    }
+
+
+    h1 {
+        margin-bottom: 20px;
+    }
+
+    .search-bar {
+        margin-bottom: 30px;
+    }
+
+    .search-bar input {
+        padding: 10px;
+        width: 300px;
+        font-size: 16px;
+    }
+
+    .card-button-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+        max-width: 400px;
+        margin: 0 auto 40px auto;
+    }
+
+    .row-of-wallets {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+
+    button {
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    .link-to-all {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+</style>
+</head>
+<body>
+    <header>
+        <button class="menu-button">☰</button>
+        <h1>Concard</h1>
+    </header>
+
+    <div class="search-bar">
+        <input type="text" placeholder="Search wallet, person...">
+    </div>
+
+    <div class="card-button-grid">
+        <button>➕ New Card</button>
+        <button>➕ New Wallet</button>
+        <button>Scan Card</button>
+        <button>Your Card</button>
+    </div>
+
+    <div class="row-of-wallets">
+        <button>Wallet A</button>
+        <button>Wallet B</button>
+        <button>Wallet C</button>
+        <button>Wallet D</button>
+        <button>Wallet E</button>
+    </div>
+
+    <div clase="link-to-all">
+        <a href="">See all wallets...</a>
+    </div>
+</body>
+</html>
