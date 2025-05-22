@@ -22,7 +22,7 @@ Date: 05/22/2025
 
 ## Things to Do
 
-* Keep updating **task table in (Google Sheets)[https://docs.google.com/spreadsheets/d/1r9mgNuQNEs5BKenZrCYRvASA2GJZQ0jmovIXWe67_6A/edit?gid=0#gid=0]**
+* Keep updating task table in (**Google Sheets**)[https://docs.google.com/spreadsheets/d/1r9mgNuQNEs5BKenZrCYRvASA2GJZQ0jmovIXWe67_6A/edit?gid=0#gid=0].
 
 * Continue defining **missing priorities and deadlines** for incomplete rows.
 
