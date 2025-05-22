@@ -7,11 +7,19 @@ Date: 05/22/2025
 * Wanting Li
 * Xiaogeng Xu
 
-## Topics
-
+## Goals
 * More specific definition on size
+* Finish core features:
 
-## What Happened
+  * Card storage in `localStorage` as JSON.
+  * Search functionality (criteria TBD).
+  * “View All Cards” UI with Canvas-rendered thumbnails.
+  * File upload feature (define limitations).
+  * Semantic conventions for HTML/CSS/JS templates and variable naming.
+
+## Check-in
+
+### Progress
 
 * Redefine size to a more specific version:
   * XS: Less than 1 hour
@@ -19,8 +27,31 @@ Date: 05/22/2025
   * M: 2–4 hours
   * L: 4–6 hours
   * XL: More than 6 hours
+  * :small_red_triangle: *Always round up*
+* Card storage approach: JSON in `localStorage`.
+* Initial planning for “View All Cards” page and thumbnail rendering using Canvas.
+
+### Blockers
+
+* Unresolved questions:
+  * **UI Design**: What should the “View All Cards” page look like?
+
+  * **Search**: What fields to support? (title, content, etc.)
+
+  * **Upload**:
+    * File formats allowed?
+    * Maximum file size?
+    * Max number of files?
+
+  * **Canvas rendering**: Best approach for displaying card thumbnails.
+
+  * **Semantics**:
+    * What boilerplate templates to use for HTML/CSS/JS?
+    * What variable naming conventions to adopt?
 
 ## Things to Do
+
+* Communicate with the UI/UX team about any blockers
 
 * Keep updating task table in [**Google Sheets**](https://docs.google.com/spreadsheets/d/1r9mgNuQNEs5BKenZrCYRvASA2GJZQ0jmovIXWe67_6A/edit?gid=0#gid=0).
 
