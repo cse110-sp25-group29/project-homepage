@@ -39,15 +39,15 @@ Date: 05/22/2025
   * **Search**: What fields to support? (title, content, etc.)
 
   * **Upload**:
-    * File formats allowed?
-    * Maximum file size?
-    * Max number of files?
+  * File formats allowed?
+  * Maximum file size?
+  * Max number of files?
 
   * **Canvas rendering**: Best approach for displaying card thumbnails.
 
   * **Semantics**:
-    * What boilerplate templates to use for HTML/CSS/JS?
-    * What variable naming conventions to adopt?
+  * What boilerplate templates to use for HTML/CSS/JS?
+  * What variable naming conventions to adopt?
 
 ## Things to Do
 
@@ -59,14 +59,15 @@ Date: 05/22/2025
 
 
 ## Task Table
-| **Task Name**                            | **Description**                                                              | **Priority** | **Size**               | **Status** | **Deadline** |
-| ---------------------------------------- | ---------------------------------------------------------------------------- | ------------ | ---------------------- | ---------- | ------------ |
-| Basic Homepage structure                 | Set up the basic layout for the homepage                                     | 3            | –                      | Done       | /            |
-| Add sticked card on Home Page            | Allow users to stick selected cards for easy access                          | –            | 2–3                    | To Do      | –            |
-| Search function                          | Enable search by card title using a search bar                               | –            | 1–2                    | To Do      | –            |
-| ‘View all card’ Page                     | Create a page to display all cards using basic HTML and CSS                  | –            | 3–4                    | To Do      | –            |
-| Advanced functionality for View All Page | Improve animation and visual styling for the 'View All Card' page            | –            | 6+ (depends on design) | To Do      | –            |
-| Setting Page                             | Allow user to edit theme, name, profile pic, email/contact info              | –            | 3–4                    | To Do      | –            |
-| Upload Button                            | Add upload function with file format/size limits (may require collaboration) | –            | 5–6                    | Pending    | –            |
-| Semantics                                | Refactor code to use semantic HTML tags                                      | –            | –                      | –          | –            |
-| Documentation                            | Maintain clear and updated documentation for devs and users                  | –            | –                      | –          | –            |
+
+| **Task Name** | **Description** | **Priority** | **Size** | **Status** | **Deadline** |
+| --- | --- | --- | --- | --- | --- |
+| Basic Homepage structure | Set up the basic layout for the homepage | 3 | – | Done | / |
+| Add sticked card on Home Page | Allow users to stick selected cards for easy access | – | 2–3 | To Do | – |
+| Search function | Enable search by card title using a search bar | – | 1–2 | To Do | – |
+| ‘View all card’ Page | Create a page to display all cards using basic HTML and CSS | – | 3–4 | To Do | – |
+| Advanced functionality for View All Page | Improve animation and visual styling for the 'View All Card' page | – | 6+ (depends on design) | To Do | – |
+| Setting Page | Allow user to edit theme, name, profile pic, email/contact info | – | 3–4 | To Do | – |
+| Upload Button | Add upload function with file format/size limits (may require collaboration) | – | 5–6 | Pending | – |
+| Semantics| Refactor code to use semantic HTML tags | – | – | – | – |
+| Documentation | Maintain clear and updated documentation for devs and users | – | – | – | – |
