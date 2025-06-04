@@ -324,3 +324,21 @@ body.dark-theme .search-icon {
     font-size: 20px;
     cursor: pointer;
 }
+
+#dialogBox {
+    position: absolute;
+    background: white;
+    border: 1px solid #ccc;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    z-index: 999;
+    width: 300px;
+}
+
+#dropZone {
+    padding: 40px;
+    margin: 20px 0;
+    border-radius: 10px;
+    background-color: #29A55B;
+}
